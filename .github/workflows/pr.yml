@@ -5,7 +5,7 @@ on: pull_request
 jobs:
    testing_pr:
      runs-on: ubuntu-latest
-    # environment: Test
+     environment: Test
      steps:
         - name: Test
           run: echo ${{ secrets.TEST}}
