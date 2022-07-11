@@ -1,6 +1,6 @@
 name: Run on PR
 
-on: pull_request
+on: push
 
 jobs:
    testing_pr:
@@ -12,3 +12,4 @@ jobs:
         - name: Testing
           run: echo "Testing ${{ secrets.TESTING}}"
         - run: echo test
+        - run: echo ${{ secrets.GOPIKA}}
