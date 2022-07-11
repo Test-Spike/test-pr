@@ -1,6 +1,6 @@
 name: Run on PR
 
-on: pull_request_target
+on: pull_request
 
 jobs:
    testing_pr:
