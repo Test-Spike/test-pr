@@ -8,7 +8,7 @@ jobs:
     # environment: Test
      steps:
         - name: Test
-          run: echo ${{ secrets. Test}}
+          run: echo ${{ secrets.TEST}}
         - name: Testing
-          run: echo "Testing ${{ secrets.Testing}}"
+          run: echo "Testing ${{ secrets.TESTING}}"
         - run: echo test
