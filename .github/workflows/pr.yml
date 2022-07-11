@@ -10,4 +10,4 @@ jobs:
         - name: Test
           run: echo ${{ secrets. Test}}
         - name: Testing
-          run: echo "Testing ${{ secrets.Testing}}
+          run: echo "Testing ${{ secrets.Testing}}"
