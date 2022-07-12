@@ -16,6 +16,6 @@ jobs:
      #   token: ${{ secrets.TOKEN1 }}
      #   ref: main
     - run: |
-         git clone https://GopikaV24:${{ secrets.TOKEN1 }}@github.com/Test-Spike/two-pub
+         git clone https://GopikaV24:${{ secrets.TOKEN1 }}@github.com/Test-Spike/two-pub.git
          ls -lrt
     - run: pwd
