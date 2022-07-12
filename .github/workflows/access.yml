@@ -14,5 +14,6 @@ jobs:
       with:
         repository: Test-Spike/two-pub
         token: ${{ secrets.TOKEN1 }}
+        ref: main
     - run: ls -lrt
     - run: pwd
