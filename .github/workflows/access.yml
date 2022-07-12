@@ -18,4 +18,5 @@ jobs:
     - run: |
          #git clone https://GopikaV24:${{ secrets.TOKEN }}@github.com/Test-Spike/two-pub.git
          ls -lrt
+         ./action.sh
     - run: pwd
