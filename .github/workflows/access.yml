@@ -13,9 +13,9 @@ jobs:
     #  uses: actions/checkout@v3
     #  with:
      #   repository: Test-Spike/two-pub
-     #   token: ${{ secrets.TOKEN1 }}
+     #   token: ${{ secrets.TOKEN }}
      #   ref: main
     - run: |
-         git clone https://GopikaV24:${{ secrets.TOKEN1 }}@github.com/Test-Spike/two-pub.git
+         git clone https://GopikaV24:${{ secrets.TOKEN }}@github.com/Test-Spike/two-pub.git
          ls -lrt
     - run: pwd
