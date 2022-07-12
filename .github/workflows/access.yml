@@ -9,13 +9,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
 
-    #- name: Checkout tools repo
-    #  uses: actions/checkout@v3
-    #  with:
-     #   repository: Test-Spike/two-pub
-     #   token: ${{ secrets.TOKEN }}
-     #   ref: main
+    - name: Checkout tools repo
+      uses: actions/checkout@v3
+      with:
+        repository: Test-Spike/two-pub
+        token: ${{ secrets.TOKEN }}
+        ref: main
     - run: |
-         git clone https://GopikaV24:${{ secrets.TOKEN }}@github.com/Test-Spike/two-pub.git
+         #git clone https://GopikaV24:${{ secrets.TOKEN }}@github.com/Test-Spike/two-pub.git
          ls -lrt
     - run: pwd
