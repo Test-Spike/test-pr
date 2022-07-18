@@ -6,8 +6,8 @@ jobs:
   access:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v3
+    #- name: Checkout
+    #  uses: actions/checkout@v3
 
     - name: Checkout tools repo
       uses: actions/checkout@v3
@@ -16,7 +16,6 @@ jobs:
         token: ${{ secrets.TOKEN }}
         ref: main
     - run: |
-         #git clone https://GopikaV24:${{ secrets.TOKEN }}@github.com/Test-Spike/two-pub.git
          ls -lrt
          chmod +x action.sh
          ./action.sh
